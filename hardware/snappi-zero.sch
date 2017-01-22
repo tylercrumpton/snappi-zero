@@ -44,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_02X40 P1
-U 1 1 5882E5C9
-P 5400 1800
-F 0 "P1" H 5400 3850 50  0000 C CNN
-F 1 "CONN_02X40" V 5400 1800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x40" H 5400 1800 50  0001 C CNN
-F 3 "" H 5400 1800 50  0000 C CNN
-	1    5400 1800
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3450 2100 3    60   Input ~ 0
 3v3
 Text GLabel 3850 2100 3    60   Input ~ 0
@@ -223,26 +212,6 @@ NoConn ~ 5050 1550
 NoConn ~ 5150 1550
 NoConn ~ 5250 1550
 NoConn ~ 5350 1550
-NoConn ~ 5450 1550
-NoConn ~ 5550 1550
-NoConn ~ 5650 1550
-NoConn ~ 5750 1550
-NoConn ~ 5850 1550
-NoConn ~ 5950 1550
-NoConn ~ 6050 1550
-NoConn ~ 6150 1550
-NoConn ~ 6250 1550
-NoConn ~ 6350 1550
-NoConn ~ 6450 1550
-NoConn ~ 6550 1550
-NoConn ~ 6650 1550
-NoConn ~ 6750 1550
-NoConn ~ 6850 1550
-NoConn ~ 6950 1550
-NoConn ~ 7050 1550
-NoConn ~ 7150 1550
-NoConn ~ 7250 1550
-NoConn ~ 7350 1550
 NoConn ~ 4050 2050
 NoConn ~ 4150 2050
 NoConn ~ 4250 2050
@@ -257,26 +226,6 @@ NoConn ~ 5050 2050
 NoConn ~ 5150 2050
 NoConn ~ 5250 2050
 NoConn ~ 5350 2050
-NoConn ~ 5450 2050
-NoConn ~ 5550 2050
-NoConn ~ 5650 2050
-NoConn ~ 5750 2050
-NoConn ~ 5850 2050
-NoConn ~ 5950 2050
-NoConn ~ 6050 2050
-NoConn ~ 6150 2050
-NoConn ~ 6250 2050
-NoConn ~ 6350 2050
-NoConn ~ 6450 2050
-NoConn ~ 6550 2050
-NoConn ~ 6650 2050
-NoConn ~ 6750 2050
-NoConn ~ 6850 2050
-NoConn ~ 6950 2050
-NoConn ~ 7050 2050
-NoConn ~ 7150 2050
-NoConn ~ 7250 2050
-NoConn ~ 7350 2050
 NoConn ~ 3550 2050
 NoConn ~ 3650 2050
 NoConn ~ 3750 2050
@@ -454,4 +403,15 @@ Wire Wire Line
 	8200 2150 8250 2150
 Wire Wire Line
 	8200 1850 8250 1850
+$Comp
+L CONN_02X20 P1
+U 1 1 588480EC
+P 4400 1800
+F 0 "P1" H 4400 2850 50  0000 C CNN
+F 1 "CONN_02X20" V 4400 1800 50  0000 C CNN
+F 2 "" H 4400 850 50  0000 C CNN
+F 3 "" H 4400 850 50  0000 C CNN
+	1    4400 1800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
