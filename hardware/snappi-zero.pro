@@ -1,4 +1,4 @@
-update=1/29/2017 1:29:30 AM
+update=1/29/2017 2:00:34 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,8 +25,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -61,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=includes/CrumpSchemes/crumpschemes
+[general]
+version=1

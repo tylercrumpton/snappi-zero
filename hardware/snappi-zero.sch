@@ -48,9 +48,9 @@ Text GLabel 3450 2100 3    60   Input ~ 0
 3v3
 Text GLabel 3850 2100 3    60   Input ~ 0
 GND
-Text GLabel 3950 1500 1    60   Input ~ 0
-PI_RX
 Text GLabel 3850 1500 1    60   Input ~ 0
+PI_RX
+Text GLabel 3750 1500 1    60   Input ~ 0
 PI_TX
 Text GLabel 3950 2100 3    60   Input ~ 0
 GPIO_17
@@ -126,8 +126,6 @@ Wire Wire Line
 Wire Wire Line
 	3850 1550 3850 1500
 Wire Wire Line
-	3950 1550 3950 1500
-Wire Wire Line
 	3950 2100 3950 2050
 Wire Wire Line
 	4900 3750 4950 3750
@@ -197,7 +195,6 @@ Wire Wire Line
 NoConn ~ 3450 1550
 NoConn ~ 3550 1550
 NoConn ~ 3650 1550
-NoConn ~ 3750 1550
 NoConn ~ 4050 1550
 NoConn ~ 4150 1550
 NoConn ~ 4250 1550
@@ -420,4 +417,7 @@ Text GLabel 8850 3950 2    60   Input ~ 0
 PI_RX
 Wire Wire Line
 	8800 3950 8850 3950
+NoConn ~ 3950 1550
+Wire Wire Line
+	3750 1550 3750 1500
 $EndSCHEMATC
