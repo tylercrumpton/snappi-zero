@@ -236,8 +236,6 @@ NoConn ~ 8800 3150
 NoConn ~ 8800 3250
 NoConn ~ 8800 3650
 NoConn ~ 8800 3750
-NoConn ~ 8800 3850
-NoConn ~ 8800 3950
 NoConn ~ 8800 4050
 NoConn ~ 8800 4150
 NoConn ~ 8800 4250
@@ -414,4 +412,12 @@ F 3 "" H 4400 850 50  0000 C CNN
 	1    4400 1800
 	0    -1   -1   0   
 $EndComp
+Text GLabel 8850 3850 2    60   Input ~ 0
+PI_TX
+Wire Wire Line
+	8800 3850 8850 3850
+Text GLabel 8850 3950 2    60   Input ~ 0
+PI_RX
+Wire Wire Line
+	8800 3950 8850 3950
 $EndSCHEMATC
